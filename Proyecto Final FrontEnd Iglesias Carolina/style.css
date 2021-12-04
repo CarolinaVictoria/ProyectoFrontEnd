@@ -5,11 +5,11 @@
 }
 
 .background{
-    background-image: url(img/Captura\ de\ pantalla\ 2021-12-02\ 164704.png);
+    background-image: url("img/6037956.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: -10px;
-    height: 200%;
+    background-position-x: right;
+    margin: -20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,9 +17,11 @@
 }
 
 h1, h2, h3, h4{
-    color: #232C50;
-    ;
+    color: #212533;
+    
 }
+
+
 
 h5 {
     color: white;
@@ -32,8 +34,13 @@ h5 {
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 8%;
+    margin: 10%;
+    margin-top: 50px;
     
+}
+
+.bodycss{
+    margin: 0 auto;
 }
 
 .elementos-principales{
@@ -51,7 +58,7 @@ h5 {
 #primer-gris{
     font-size: small;
     text-align: center;
-    color: gray;
+    color: rgb(60, 60, 60);
     margin-top: -20px;
     line-height: 22px;
 }
@@ -70,9 +77,10 @@ h5 {
 .segundo-gris{
     font-size: small;
     text-align: center;
-    color: gray;
+    color: rgb(60, 60, 60);
     margin-top: -60px;
     line-height: 22px;
+    ;
 }
 
 #graficos{
@@ -81,24 +89,88 @@ h5 {
     margin-top: 10%;
 }
 
-.section-title{
-    font-size: 14px;
-    margin: 20px;
-   
-}
 
-.boton-naranja{
+.boton1{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
+    background-color: #f3603b;
+    padding: 10px;
+    color: white;
+    border-radius: 35px;
+    border: none;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
 }
 
-.boton-blanco{
+.boton2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    color: #f3603b;
+    border-radius: 35px;
+    border: none;
+    width: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.boton3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px;
+    color: #212533;
+    border-radius: 35px;
+    border: none;
+    width: 40%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.vacio{
+    height: 50px;
+}
+
+.section-title{
+    margin: 20px;
+    font-size: small;
+    color: rgb(60, 60, 60);
+    margin-left: 10%;
 
 }
 
-#title-ali{
+
+.number{
+    width: 50px;
+    height: 30px;
+    background-color: #f3603b;
+    color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 7px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.entire-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+#title-persons{
     font-size: 28px;
     margin: 0 auto;
     margin-bottom: 10%;
@@ -113,9 +185,10 @@ h5 {
 #name{
     margin: 0 auto;
     margin-top: 8%;
+    color: #232C50;
 }
 
-#ali-paragraph{
+#paragraph{
     display: flex; 
     flex-wrap: nowrap;
     flex-direction: column;
@@ -125,45 +198,237 @@ h5 {
     margin-top: 30px;
     line-height: 30px;
     font-size: 14px;
+    color: rgb(60, 60, 60);
 }
 
-.naranja{
+.azul{
     padding: 8%;
-    background: #F3613C;
-    
+    background: #232C50;
 }
 
 .footer{
-
+    background-color: rgb(6, 8, 32);
+    background-size: cover;
+    margin: -20px
 }
 
 .form{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
 
+.campo{
+    padding: 18px;
+    margin-right: 5px;
+    height: 30px;
+    width: 220px;
+    border-radius: 30px;
+    color: gray;
+    border: none;
+}
+
+.enviar{
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: #f3603b;
+    font-size: 12px;
 }
 
 .nav-bar-container {
     display: flex;
-    flex-direction: column;;
-    list-style-type: none;
     flex-wrap: nowrap;
-    
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.nav-bar-block {
+    display: flex;
+    flex-direction: column;
+    list-style: none;    
+    justify-content: space-around;
+    margin: 20px;
+}  
 
 .nav-bar-link {
     color: white;
-    text-decoration: none;
     font-size: 13px;
-}
-
-.redes{ 
-    flex-direction: row;
+    margin: 15px;
+    text-decoration: none;
     
 }
 
+.redes{ 
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.item-red{
+    height: 30px;
+    width: 30px;
+}
+
+.logo-inferior{
+    margin: 0 auto;
+    display: flex;
+    padding: 45px;
+    
+}
+
+
 .derechos{
+    color: gray;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card-anisha{
+    display: none;
+}
+
+.card-richard{
+    display: none;
+}
+
+@media (min-width: 1000px) {
+   .footer{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-around;
+       
+   }
+
+   .logo-redes{
+       display: flex;
+       flex-direction: column-reverse;
+       
+   }
+
+   .campo{
+       margin-top: 40px;
+   }
+
+   .enviar{
+       margin-top: 40px;
+   }
+
+   .nav-bar-container{
+       margin-left: 0px;
+       margin-right: 0px;
+   }
+
+   .nav-bar-block{
+       margin-left: 0;
+   }
+
+   .azul{
+       height: 100px;
+       display: flex;
+       flex-direction: row;
+       opacity: 0.9;
+       margin-bottom: 20px;
+   }
+
+   .boton3 {
+       width: 120px;
+       height: 40px;
+       margin: 0 auto;
+       
+   }
+
+   h5{
+       font-size: x-large;
+       width: 40%;
+       text-align: left;
+       margin-top: -23px;
+   }
+
+   .boton2{
+       width: 140px;
+       margin-bottom: 140px;
+       margin-top: 100px;
+   }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+   .card-ali{
+        text-align: center;
+   }
+
+   .card-anisha{
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .card-richard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+    #title-persons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    
+    .big-sections{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .sections{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        
+    }
+    
+    
+    .segundo-gris{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 400px;
+    }
+    
+    .boton1{
+        height: 80px;
+    }
+    
+    #graficos{
+        width: 200%;
+        margin-left: 130px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    .derechos {
+           display: none;
+    }
+    
 
 }
 
-@media (min-width: 500px) {
-   
-}
